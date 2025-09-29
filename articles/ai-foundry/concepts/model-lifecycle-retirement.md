@@ -76,6 +76,12 @@ Retirements are done on a rolling basis, region by region. Notifications are sen
 
 To learn more about the Azure OpenAI models lifecycle, including information for current, deprecated, and retired models, see [Azure OpenAI in Azure AI Foundry Models model deprecations and retirements](../openai/concepts/model-retirements.md). 
 
+## Tool for Checking Model Lifecycle Status within a Subscription
+
+For all deployed Foundry Models within a subscription, we have created a simple webapp that uses subscription ID and Azure auth token in order to return what models a user currently has deployed within their subscription, as well as the status of those models and any pertinent dates.
+
+[Launch the tool](http://aka.ms/FoundryModelLifecycleMonitor)
+
 ## Timelines for Foundry Models
 
 The following tables list the timelines for models that are on track for retirement. The specified dates are in UTC time.
